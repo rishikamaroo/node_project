@@ -1,0 +1,24 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node src/routes/recipe.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --list-different '{src,test}'/*.ts", 
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "prettier": "2.1.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
